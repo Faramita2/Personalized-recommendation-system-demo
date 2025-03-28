@@ -72,7 +72,7 @@ demo
 
 - Ensure the CSV files in the data/ directory are complete and the paths are correct.
 - If the dataset is large, adjust filtering conditions (e.g., thresholds for active users and popular movies).
-- Generated charts are saved in the output/ folder for further analysis.
+- Generated charts are saved in the `output/` folder for further analysis.
 
 ---
 
@@ -123,7 +123,7 @@ demo
 
 3. 输出结果
    - 程序会为目标用户（默认为用户 ID=1）推荐未评分的电影，并按预测评分从高到低排序。
-   - 所有生成的图表将保存在 output/ 文件夹中，格式为 PNG 文件。
+   - 所有生成的图表将保存在 `output/` 文件夹中，格式为 PNG 文件。
 
 #### 核心功能
 
@@ -146,4 +146,4 @@ demo
 
 - 请确保 data/ 目录下的 CSV 文件完整且路径正确。
 - 如果数据规模较大，建议适当调整筛选条件（如活跃用户和热门电影的阈值）。
-- 生成的图表保存在 output/ 文件夹中，便于进一步分析。
+- 生成的图表保存在 `output/` 文件夹中，便于进一步分析。
